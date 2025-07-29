@@ -21,6 +21,7 @@ public class arrayRevision {
         }
 
         arrayPrint(arr);
+        sumOfArray(arr);
     }
 
     static void arrayPrint(int[] arr){
@@ -30,8 +31,17 @@ public class arrayRevision {
             System.out.print(arr[i]);
             System.out.print(",");
         }
-        
+
         System.out.print("}");
+        System.out.println();
+    }
+
+    static void sumOfArray(int[] arr){
+        int sum = 0;
+        for(int i=0; i<arr.length; i++){
+            sum = sum + arr[i];
+        }
+        System.out.print("Sum of all element of Array is :" + sum);
     }
 
 
