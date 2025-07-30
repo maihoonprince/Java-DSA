@@ -1,5 +1,7 @@
 import java.util.*;
 
+// Take n elements in an array, print the sum.
+
 public class printArry {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
