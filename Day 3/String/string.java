@@ -30,6 +30,8 @@ public class string {
         String string2 = sc.nextLine();
         checkStringEqualOrNot(string1, string2);
 
+        concatenateStrings(string1, string2);
+
         sc.close();
     }
 
@@ -51,5 +53,10 @@ public class string {
         else{
             System.out.println("String1 is not equal to String2");
         }
+    }
+
+    static void concatenateStrings(String string1, String string2){
+         String concatenatedStrings = string1 + string2;
+         System.out.println(concatenatedStrings);
     }
 }
